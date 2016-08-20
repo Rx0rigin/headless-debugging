@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 
-let MyVar = null;
+var MyVar = null;
 
 function setMyVar() {
   return 'Never gonna let you down!';

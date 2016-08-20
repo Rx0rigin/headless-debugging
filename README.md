@@ -1,6 +1,8 @@
 # headless-debugging
 
+# Link to slides
 
+https://www.canva.com/design/DAB8SGLRgWc/31yctX8W2Do0jWF_7BUVyA/edit
 
 # My Notes
 KeyNotes Headless

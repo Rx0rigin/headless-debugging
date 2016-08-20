@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-let deepFoo = {
+// my docker diddnt like let for  var
+var deepFoo = {
   theRightAnswer: "Every thing is fine! ",
   theWrongAnswer: "This is not the string you are looking for...",
   arrayOfFruit: [ 'strawberry', 'banana', 'orange'],
@@ -11,8 +12,6 @@ let deepFoo = {
 
 function funkyFunction(x) {
 
-  console.log("funky function debug is working");
-  console.dir(deepFoo);
   return x.theWrongAnswer;
 
 };
