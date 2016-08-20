@@ -3,11 +3,13 @@ var router = express.Router();
 
 // my docker diddnt like let for  var
 var deepFoo = {
-  theRightAnswer: "Every thing is fine! ",
   theWrongAnswer: "This is not the string you are looking for...",
   arrayOfFruit: [ 'strawberry', 'banana', 'orange'],
   aNumber: 1,
-  aString: 'Do Ra Me Fa So La De Do'
+  aString: 'Do Ra Me Fa So La De Do',
+  deepBar: {
+    theRightAnswer: "Every thing is fine! "
+  }
 }
 
 function funkyFunction(x) {
